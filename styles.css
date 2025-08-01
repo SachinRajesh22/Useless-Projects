@@ -1,0 +1,113 @@
+body {
+    background: radial-gradient(ellipse at center, #0d0f1b 0%, #05050b 100%);
+    font-family: 'Courier New', monospace;
+    color: #00ffe0;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    color: #00ffe0;
+    text-shadow: 0 0 5px #00ffe0;
+    font-size: 40px;
+    margin-top: 40px;
+}
+
+.tagline {
+    font-style: italic;
+    color: #1ee6e6;
+    margin-bottom: 30px;
+    text-shadow: 0 0 3px #00e6ff;
+}
+
+.upload-container {
+    background-color: rgba(10, 20, 40, 0.85);
+    border: 2px solid #00ffe0;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 0 20px #00ffe088;
+    max-width: 500px;
+    margin: 0 auto 50px;
+}
+
+h2 {
+    color: #00ffe0;
+    text-shadow: 0 0 5px #00ffe0;
+    margin-bottom: 20px;
+}
+
+.file-input input[type="file"] {
+    background-color: #02141f;
+    border: 1px solid #00ffe0;
+    color: #00ffe0;
+    padding: 8px;
+    border-radius: 5px;
+    width: 220px;
+}
+
+#imagePreviewContainer {
+    width: 300px;
+    height: 300px;
+    margin: 20px auto;
+    border: 2px dashed #00d4ff;
+    border-radius: 10px;
+    background-image: url('sample.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.placeholder-text {
+    position: absolute;
+    color: #00eaff;
+    font-size: 16px;
+    z-index: 0;
+}
+
+#imagePreview {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    display: none;
+    z-index: 1;
+}
+
+.btn {
+    background: linear-gradient(90deg, #00ffe0, #00d4ff);
+    color: #001f2f;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin: 10px 10px;
+    cursor: pointer;
+    box-shadow: 0 0 10px #00ffe055;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: linear-gradient(90deg, #00b4ff, #00ffe0);
+    box-shadow: 0 0 20px #00ffe088;
+}
+
+.btn:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+}
+
+#resultText {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: rgba(0, 20, 30, 0.4);
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #00ffe0;
+    box-shadow: 0 0 10px #00ffe044;
+}

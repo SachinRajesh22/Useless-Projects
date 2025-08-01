@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>YOMI - Palm Line Reader</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>YOMI</h1>
+    <p class="tagline">YOUR PALM, YOUR STORY</p>
+
+    <div class="upload-container">
+        <h2>Upload Palm Image</h2>
+        <div class="file-input">
+            <input type="file" id="imageUpload" accept="image/*">
+        </div>
+
+        <div id="imagePreviewContainer">
+            <span class="placeholder-text">Palm Preview</span>
+            <img id="imagePreview" alt="Palm Preview">
+        </div>
+
+        <div class="btn-container">
+            <button class="btn" id="downloadBtn">Download Log</button>
+            <button class="btn" id="analyzeBtn" disabled>Read My Palm</button>
+            <button class="btn" id="resetBtn">Reset</button>
+        </div>
+
+        <p id="resultText"></p>
+    </div>
+
+    <canvas id="hiddenCanvas" width="300" height="300" style="display: none;"></canvas>
+
+    <script src="script.js"></script>
+</body>
+</html>
