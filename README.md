@@ -49,6 +49,7 @@ For Software: Github
 ### Project Demo
 # Video
 [The working of the Yomi Counter](screenrecord.mp4)
+<video src="https://github.com/SachinRajesh22/Useless-Projects/screenrecord.mp4" controls></video>
 *It basically shows how the project works. It depicts a photo being uploaded and the corresponding number of lines in the palm is given as output*
 
 ---
