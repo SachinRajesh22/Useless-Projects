@@ -33,23 +33,23 @@ For Software: Vercel App
 
 
 ### Project Documentation
-For Software: 
+For Software: Github
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+![Opening Interface](screenshot1)
+*This is what we can see when get into the website*
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+![Uploading](screenshot2)
+*We are trying to upload a palm image into the memory*
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+![Result](screenshot3)
+*The result provides the count of the major lines in our palm*
 
 
 ### Project Demo
 # Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
+[The working of the Yomi Counter](screenrecord)
+*It basically shows how the project works. It depicts a photo being uploaded and the corresponding number of lines in the palm is given as output*
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
